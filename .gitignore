@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+*.pid
+*.sqlite
+
+# dotenv
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Excel (если они генерируются автоматически)
+*.xlsx
